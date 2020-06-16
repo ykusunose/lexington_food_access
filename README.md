@@ -10,4 +10,4 @@ OSM shows only one grocery store in all of Lexington (I searched by building and
 
 ## Median household income by ZIP code
  - I think I can use the shapefiles from [data.gov (TIGER) website](https://catalog.data.gov/dataset/tiger-line-shapefile-2019-2010-nation-u-s-2010-census-5-digit-zip-code-tabulation-area-zcta5-na).
- - I can join tabular [income data] (https://www.psc.isr.umich.edu/dis/census/Features/tract2zip/) to the above geometry data, using the instructions in Module 04.
+ - I can join tabular [income data](https://www.psc.isr.umich.edu/dis/census/Features/tract2zip/) to the above geometry data, using the instructions in Module 04.
