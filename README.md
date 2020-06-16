@@ -2,7 +2,7 @@
 locations of grocery stores overlaid onto a heatmap of average income, by zip code
 
 # Vision
-Show on one map (not sure if it will be static or on Mapbox) the locations of grocery stores in Lexington AND median household incomes, by ZIP code.
+Show on one map (not sure if it will be static or on Mapbox) the locations of grocery stores in Lexington AND median household incomes, by ZIP code. It will be a bunch of points layered on top of a chloropeth map.
 I believe that these are the same kind of raw data used to generate this [Food Access Atlas by the USDA](https://www.ers.usda.gov/data-products/food-access-research-atlas/go-to-the-atlas/).
 
 ## Grocery store locations
