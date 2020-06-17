@@ -144,12 +144,13 @@
 </head>
 
 <body>
+    <h1>Income and access to food in Lexington, KY</h1>
+
     <iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/ykusunose/builder/5040a402-bfae-493b-8c9b-1982b6a4a5a5/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
     <section>
         <a href='https://nmp.carto.com/u/ykusunose/builder/5040a402-bfae-493b-8c9b-1982b6a4a5a5/embed' class="linkbox">Full-screen version</a>
 
        
-        <h1>Income and access to food in Lexington, KY</h1>
         <h2>Created June 17,2020 by <a href='https://github.com/ykusunose'>Y. Kusunose</a>.</h2>
         <div class="row">
             <div class="first-column">
@@ -164,16 +165,16 @@
                 <h3> This map </h3>     
                 <p>
                     This map shows the median income of households, by ZIP code, as well as the location of full-service food retailers, including
-                    Kroger, Save-A-Lot, Walmart, Aldi, and Meijer. It excludes ethnic food retailers (e.g., YuYu and Supermercado Aguascalientes) simply
+                    Kroger, Save-A-Lot, Walmart, Aldi, and Meijer. Click on the red dots for the retailer name. It excludes ethnic food retailers (e.g., YuYu and Supermercado Aguascalientes) simply
                     due to the author's unfamiliarity with all such retailers and their offerings.
                 <p>    
 
                 <h3>Data and tools </h3>
                 <p>
                     Supermarket locations were digitized by the author in QGIS3.12 using locations identified in Google Maps with the search term "grocery store." 
-                    Income data were downloaded from the University of Michigan Population Studies Center. The Center prepared these using data collected 2006-2010 through the 
-                    American Community Survey. ZIP code shapefiles were downloaded from the data.gov website. These data were 
-                    loaded onto CARTO, which hosts the map above.       
+                    Income data (collected 2006-2010 via the American Community Survey) were downloaded from the <a href='https://www.psc.isr.umich.edu/dis/census/Features/tract2zip/'>University of Michigan Population Studies Center</a>.
+                    ZIP code shapefiles were downloaded from the <a href='https://catalog.data.gov/dataset/tiger-line-shapefile-2019-2010-nation-u-s-2010-census-5-digit-zip-code-tabulation-area-zcta5-na'>data.gov</a> website. These data were 
+                    loaded onto <a href='https://carto.com/'>CARTO</a>, which hosts the map above.       
                 <p>    
                
             </div>
@@ -193,13 +194,18 @@
                     title="Gray&#x27;s Arch">
                 <div class="linkbox">Photo Credit:  <a href="https://www.gettyimages.com/photos/super-market-employee-produce?mediatype=photography&phrase=super%20market%20employee%20produce&sort=mostpopular">Getty Images</a></div>
             </div>
+           
             <h3>geoJSON files </h3>
-            <ul>
-                <li> blah 
-                    <li> blah 
+            <p>
+               <ul>
+                <li> <a href="grocery_points.geojson">grocery store locations</a>
+                <li> <a href="med_hh_inc_by_zip.geojson">income by ZIP code</a> 
+                <p>
             </ul>    
             
-        </div>
+            <h3>Interested in food deserts?<h3>
+                  Check out this national-level <a href="https://www.ers.usda.gov/data-products/food-access-research-atlas/go-to-the-atlas/">Atlas of Food Access</a> by the USDA.   
+            </div>
 
         <hr>
        
