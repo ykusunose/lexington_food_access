@@ -1,0 +1,7 @@
+{
+    "title": "Access to Food in Lexington, KY",
+    "info": "This map shows the point locations of supermarkets in Lexington, KY superimposed on a heatmap of median income, by ZIP code.", 
+    "coordinates": [38.04, -84.50],
+    "author": "ykusunose", 
+    "link": "https://ykusunose.github.io/lexington_food_access/" 
+}
